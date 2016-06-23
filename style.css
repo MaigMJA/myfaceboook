@@ -1,0 +1,145 @@
+*{
+  margin: 0;
+  padding: 0;
+  z-index: 4;
+}
+
+.fond{
+  height: 100vh;
+  width: 100vw;
+  background: linear-gradient(to bottom, white, blue);
+  opacity: 0.3;
+  z-index: 1;
+  position: fixed;
+  top:0;
+  left:0;
+  z-index: -1;
+}
+
+@font-face {
+  font-family:'FACEBOLF.OTF';
+
+  src:url(./FACEBOLF.OTF);
+  font-family: 'FACEBOLF.OTF';
+}
+
+
+p{
+  font-family: sans-serif;
+  font-weight: inherit;
+}
+
+h1{
+  font-family: 'FACEBOLF.OTF';
+  padding: 30px 20px 20px 20px;
+  position:absolute;
+  color: white;
+}
+
+#header{
+height:70px;
+width:auto;
+background-color: #3b5998;
+padding: 0 100px;
+z-index: 3;
+}
+
+.entrees{
+  right:10%;
+  position: absolute;
+}
+
+.blockinput{
+  height: 16px;
+  width: 106px;
+  background-color: white;
+  margin: 4px;
+}
+
+
+
+.middlecont{
+  text-align: center;
+  margin: 0 30px 0 30px;
+
+}
+
+.midleft{
+  top: 180px;
+  left: -24%;
+  position: relative;
+}
+
+ul{
+  left: 600px;
+  left: 66%;
+  position: relative;
+}
+
+li{
+  padding: 3px;
+  background-color: white;
+  border-radius: 5px;
+  border: 1px solid grey;
+  margin: 2px;
+  width: 200px;
+  list-style-type: none;
+  color:grey;
+  position: relative;
+  right:30px;
+}
+
+.inscription{
+  font:18px bold;
+  color:white;
+  background-color: green;
+  border-radius:5px;
+  padding: 3px;
+  height:20px;
+  width: 200px;
+  text-align: center;
+  /*left:575px;
+  top:380px;*/
+  position: absolute;
+  left: -28px;
+}
+.inscription ul{
+  left: 66%;
+}
+div#footer{
+  background-color: white;
+  height:140px;
+  width: auto;
+  padding: 0 100px;
+  position: absolute;
+  position: absolute;
+      bottom: 0;
+      left: 0;
+      height: 13%;
+}
+
+#footer p{
+  color:grey;
+  bottom:0;
+}
+
+.pblue, .pblack, .pwhite{
+font-size: 9px;
+}
+
+.pblue{
+  color:#3b5998;
+}
+
+.pblack{
+  color:black;
+}
+
+.pwhite{
+  color:white;
+}
+
+.container{
+  /*background: linear-gradient(to bottom, white, blue);
+  opacity: 0.3;*/
+}
